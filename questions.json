@@ -3,13 +3,15 @@
         "question": "Which of the following is the first step in the scientific method?",
         "choices": ["Formulating a hypothesis", "Conducting an experiment", "Analyzing data", "Identifying a problem"],
         "correct": 3,
-        "feedback": "Identifying a problem is the first step in the scientific method, where a question or problem is defined."
+        "feedback": "Identifying a problem is the first step in the scientific method, where a question or problem is defined.",
+        "image":"images/firstStep.jpg"
     },
     {
         "question": "What is the primary purpose of a control in an experiment?",
         "choices": ["To test a hypothesis", "To provide a standard for comparison", "To manipulate variables", "To increase data accuracy"],
         "correct": 1,
-        "feedback": "The control provides a standard for comparison to determine the effect of the variable being tested."
+        "feedback": "The control provides a standard for comparison to determine the effect of the variable being tested.",
+        "image":"images/control.jpg"
     },
     {
         "question": "Which of the following is a qualitative observation?",
