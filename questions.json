@@ -1,14 +1,122 @@
 [
     {
-        "question": "What is the capital of France?",
-        "choices": ["Paris", "London", "Berlin", "Madrid"],
-        "correct": 0,
-        "feedback": "Paris is the capital of France."
+        "question": "Which of the following is the first step in the scientific method?",
+        "choices": ["Formulating a hypothesis", "Conducting an experiment", "Analyzing data", "Identifying a problem"],
+        "correct": 3,
+        "feedback": "Identifying a problem is the first step in the scientific method, where a question or problem is defined."
     },
     {
-        "question": "Which planet is known as the Red Planet?",
-        "choices": ["Earth", "Mars", "Jupiter", "Venus"],
+        "question": "What is the primary purpose of a control in an experiment?",
+        "choices": ["To test a hypothesis", "To provide a standard for comparison", "To manipulate variables", "To increase data accuracy"],
         "correct": 1,
-        "feedback": "Mars is often called the Red Planet because of its reddish appearance."
+        "feedback": "The control provides a standard for comparison to determine the effect of the variable being tested."
+    },
+    {
+        "question": "Which of the following is a qualitative observation?",
+        "choices": ["The liquid is 50°C", "The sample weighs 30 grams", "The substance has a pungent odor", "The object is 5 cm long"],
+        "correct": 2,
+        "feedback": "A qualitative observation describes characteristics or qualities, such as odor, color, or texture."
+    },
+    {
+        "question": "In an experiment, what does the independent variable represent?",
+        "choices": ["The variable that is measured", "The variable that is kept constant", "The variable that is manipulated", "The variable that is uncontrolled"],
+        "correct": 2,
+        "feedback": "The independent variable is the one that is deliberately changed or manipulated in an experiment."
+    },
+    {
+        "question": "What is the purpose of peer review in the scientific process?",
+        "choices": ["To correct errors in spelling", "To verify the accuracy and validity of results", "To publish the research findings", "To present the research at a conference"],
+        "correct": 1,
+        "feedback": "Peer review is crucial for verifying the accuracy and validity of research before it is accepted for publication."
+    },
+    {
+        "question": "Which of the following best defines a hypothesis?",
+        "choices": ["A proven theory", "A testable prediction", "An observation", "A scientific law"],
+        "correct": 1,
+        "feedback": "A hypothesis is a testable prediction based on prior knowledge and observation."
+    },
+    {
+        "question": "Which type of graph is most suitable for displaying the relationship between two variables?",
+        "choices": ["Pie chart", "Bar graph", "Line graph", "Histogram"],
+        "correct": 2,
+        "feedback": "A line graph is most suitable for showing the relationship between two continuous variables."
+    },
+    {
+        "question": "What is an anomaly in scientific data?",
+        "choices": ["A trend in the data", "A consistent result", "A result that deviates from the expected pattern", "A statistical average"],
+        "correct": 2,
+        "feedback": "An anomaly is a data point that deviates from the expected pattern or trend."
+    },
+    {
+        "question": "In a fair test, why is it important to only change one variable at a time?",
+        "choices": ["To save time", "To ensure accurate measurements", "To determine the direct effect of that variable", "To increase the sample size"],
+        "correct": 2,
+        "feedback": "Changing only one variable at a time ensures that any observed effects can be directly attributed to that variable."
+    },
+    {
+        "question": "Which of the following is an example of a primary source of data?",
+        "choices": ["A textbook summary", "A newspaper article", "A scientific journal article", "A Wikipedia entry"],
+        "correct": 2,
+        "feedback": "A scientific journal article is an example of a primary source as it presents original research and data."
+    },
+    {
+        "question": "What is the role of a hypothesis in a scientific investigation?",
+        "choices": ["To describe the experiment", "To explain the results", "To predict the outcome", "To list the materials"],
+        "correct": 2,
+        "feedback": "A hypothesis predicts the outcome of the experiment based on prior knowledge."
+    },
+    {
+        "question": "Which of the following best describes a dependent variable?",
+        "choices": ["It is manipulated by the researcher", "It is kept constant", "It is measured in the experiment", "It is an uncontrolled variable"],
+        "correct": 2,
+        "feedback": "The dependent variable is the one that is measured to see how it is affected by changes in the independent variable."
+    },
+    {
+        "question": "What does the term 'replication' refer to in scientific research?",
+        "choices": ["Repeating an experiment", "Publishing results", "Analyzing data", "Peer review"],
+        "correct": 0,
+        "feedback": "Replication involves repeating an experiment to ensure that results are consistent and reliable."
+    },
+    {
+        "question": "Which of the following is an example of a secondary source?",
+        "choices": ["A scientific journal article", "A lab notebook", "A literature review", "Raw data"],
+        "correct": 2,
+        "feedback": "A literature review is a secondary source as it summarizes and discusses primary research."
+    },
+    {
+        "question": "Which of the following is the best example of quantitative data?",
+        "choices": ["The plant is green", "The substance is acidic", "The liquid boils at 100°C", "The animal is large"],
+        "correct": 2,
+        "feedback": "Quantitative data involves numbers and measurements, such as the boiling point of a liquid."
+    },
+    {
+        "question": "Why is it important to have a large sample size in an experiment?",
+        "choices": ["To reduce costs", "To minimize errors", "To increase the reliability of the results", "To decrease the time required"],
+        "correct": 2,
+        "feedback": "A larger sample size increases the reliability of the results by reducing the impact of outliers and variability."
+    },
+    {
+        "question": "What is the main purpose of a scientific model?",
+        "choices": ["To predict future events", "To explain and represent phenomena", "To collect data", "To make observations"],
+        "correct": 1,
+        "feedback": "A scientific model is used to explain and represent natural or physical phenomena."
+    },
+    {
+        "question": "Which of the following terms best describes the accuracy of a measurement?",
+        "choices": ["Precision", "Repeatability", "Validity", "Error"],
+        "correct": 2,
+        "feedback": "Validity refers to how accurately a measurement reflects the true value or condition."
+    },
+    {
+        "question": "What is meant by 'ethics' in scientific research?",
+        "choices": ["Conducting research quickly", "Ensuring the research is cost-effective", "Ensuring research is conducted in a morally responsible manner", "Collecting as much data as possible"],
+        "correct": 2,
+        "feedback": "Ethics in research involves ensuring that the research is conducted in a morally responsible and respectful manner."
+    },
+    {
+        "question": "Which of the following is an example of a systematic error?",
+        "choices": ["A stopwatch that runs too fast", "A random spike in data", "A misrecorded data point", "A variable not being controlled"],
+        "correct": 0,
+        "feedback": "A stopwatch that runs too fast is a systematic error as it consistently affects all measurements in the same way."
     }
 ]
