@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Investigating Science Preliminary Quiz</title>
+    <title>Randomized Quiz</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,6 +14,16 @@
         .quiz-container {
             background-color: #fff;
             padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -47,6 +57,7 @@
 <body>
 
 <div class="quiz-container">
+    <div id="imageContainer" class="image-container"></div>
     <div id="question" class="question"></div>
     <ul id="choices" class="choices"></ul>
     <div id="feedback" class="feedback"></div>
@@ -68,6 +79,7 @@
 
     // Function to load a question
     function loadQuestion() {
+        const imageContainer = document.getElementById('imageContainer');
         const questionElement = document.getElementById('question');
         const choicesElement = document.getElementById('choices');
         const feedbackElement = document.getElementById('feedback');
@@ -79,6 +91,13 @@
         // Get the current question
         const currentQuestion = questions[currentQuestionIndex];
         
+        // Display the image
+        if (currentQuestion.image) {
+            imageContainer.innerHTML = `<img src="${currentQuestion.image}" alt="Question Image">`;
+        } else {
+            imageContainer.innerHTML = '';
+        }
+
         // Display the question
         questionElement.innerHTML = currentQuestion.question;
 
