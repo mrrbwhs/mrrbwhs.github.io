@@ -4,44 +4,49 @@
         "choices": ["Formulating a hypothesis", "Conducting an experiment", "Analyzing data", "Identifying a problem"],
         "correct": 3,
         "feedback": "Identifying a problem is the first step in the scientific method, where a question or problem is defined.",
-        "image":"images/firstStep.jpg"
+        "image":"images/firstStep.png"
     },
     {
         "question": "What is the primary purpose of a control in an experiment?",
         "choices": ["To test a hypothesis", "To provide a standard for comparison", "To manipulate variables", "To increase data accuracy"],
         "correct": 1,
         "feedback": "The control provides a standard for comparison to determine the effect of the variable being tested.",
-        "image":"images/control.jpg"
+        "image":"images/firstStep.png"
     },
     {
         "question": "Which of the following is a qualitative observation?",
         "choices": ["The liquid is 50°C", "The sample weighs 30 grams", "The substance has a pungent odor", "The object is 5 cm long"],
         "correct": 2,
-        "feedback": "A qualitative observation describes characteristics or qualities, such as odor, color, or texture."
+        "feedback": "A qualitative observation describes characteristics or qualities, such as odor, color, or texture.",
+        "image":"images/firstStep.png"
     },
     {
         "question": "In an experiment, what does the independent variable represent?",
         "choices": ["The variable that is measured", "The variable that is kept constant", "The variable that is manipulated", "The variable that is uncontrolled"],
         "correct": 2,
-        "feedback": "The independent variable is the one that is deliberately changed or manipulated in an experiment."
+        "feedback": "The independent variable is the one that is deliberately changed or manipulated in an experiment.",
+        "image":"images/firstStep.png"
     },
     {
         "question": "What is the purpose of peer review in the scientific process?",
         "choices": ["To correct errors in spelling", "To verify the accuracy and validity of results", "To publish the research findings", "To present the research at a conference"],
         "correct": 1,
-        "feedback": "Peer review is crucial for verifying the accuracy and validity of research before it is accepted for publication."
+        "feedback": "Peer review is crucial for verifying the accuracy and validity of research before it is accepted for publication.",
+        "image":"images/firstStep.png"
     },
     {
         "question": "Which of the following best defines a hypothesis?",
         "choices": ["A proven theory", "A testable prediction", "An observation", "A scientific law"],
         "correct": 1,
-        "feedback": "A hypothesis is a testable prediction based on prior knowledge and observation."
+        "feedback": "A hypothesis is a testable prediction based on prior knowledge and observation.",
+        "image":"images/firstStep.png"
     },
     {
         "question": "Which type of graph is most suitable for displaying the relationship between two variables?",
         "choices": ["Pie chart", "Bar graph", "Line graph", "Histogram"],
         "correct": 2,
-        "feedback": "A line graph is most suitable for showing the relationship between two continuous variables."
+        "feedback": "A line graph is most suitable for showing the relationship between two continuous variables.",
+        "image":"images/firstStep.png"
     },
     {
         "question": "What is an anomaly in scientific data?",
